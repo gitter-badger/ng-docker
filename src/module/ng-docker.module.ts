@@ -1,9 +1,10 @@
 import { NgModule } from '@angular/core';
+import { ImageService } from '../service/image.service'
 
 @NgModule({
   imports:[],
   declarations:[],
-  exports:[]
+  providers: [ImageService],
 })
 
 export class DockerModule {}
