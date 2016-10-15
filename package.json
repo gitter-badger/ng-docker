@@ -19,7 +19,8 @@
   },
   "keywords": [
     "angular",
-    "angular2"
+    "angular2",
+    "docker"
   ],
   "license": "MIT",
   "bugs": {
