@@ -1,4 +1,5 @@
 import { Injectable, Injector } from '@angular/core';
+import { Http } from '@angular/http';
 
 @Injectable()
 export class ImageService {
@@ -9,6 +10,6 @@ export class ImageService {
 
   private listImageUrl = "/images/json";
   listImages(){
-    
+
   }
 }
